@@ -13,25 +13,64 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* "Dobbiamo immaginare i Datatype in JavaCript come delle scatoline di carta dove poi mettre vari giovattoli e su ogni scattola gli atachiamo un eticheta con il nome, il nome dira che cosa sta dentro questa scatolina"
-"ESEMPIO: in una scatola che la chimiamo 'Nome' mettiamo dentro il tuo nome 'Alfonso' opure il nome del giocattolo, e cosi sapiamo che nella scatola etichetata con il nome troveremo un il nome Alfonso o Valerio, Topolino e cosi via"
-"Dentro le scatole possiamo mettere piu tipi di ogetti non solo giocatoli o nomi ma anche numeri o puo essere anche vuota di proposito opure intenzionalmente la svuotiamo "
-"ESEMPIO:
-scatola con i nomi avrano dentro lettre e anche cifre ("Eduardo", "Topolino", "Robot2", "23", "234") che sranno appesa dalle due virgolete sopra come mollette ("Zio") e li chiameremmo queste mollette Stringhe.
-scatola con i numeri dove conterrano numeri ( 0, 1, 20, 1.5, 5.5) con il tipo di ogetti Nuber, e non avranno bisogno di molette perche le useremo come cifre per dare un valore di una nota a scuola.
-le scatole possono essere vuote o piene e per sapere cosa ce dentro possiamo chiedere se ce qualcosa dentro,
-ESEMPIO:
-------
--let nome = "Monica";
--let cognome ;
-------
-Chiediamo cosa c'e dentro alla scatola con i nomi, chediamo se ce "Eduardo" o "Antonio" e ci dira che non c'e, e ci dira la risposta "false" falso! perche dentro la scatola nome ce "Monica" 
-ma se avessimo chiesto di Monica alora ci avrebbe detto "true" vero! dentro la scatola ce il nome Monica!
-quando chediamo se c'e qualcosa dentro alla scatola cognome ci dira che non c'e nulla e ci dira '// undefined'
-se invece la svuotiamo noi di proposito come quando magiamo tutti i dolci da una scatola e diacimao che e vuota allora scriviamo
+/*Dobbiamo immaginare i Data Types in JavaScript come delle scatoline di carta in cui possiamo mettere vari giocattoli.
+ Su ogni scatola attacchiamo un’etichetta con il nome, e questo nome ci dirà cosa contiene quella scatolina.
 
--let dolci = null; 
-per che rimane nulla .
+Esempio:
+In una scatola chiamata "Nome", possiamo mettere il nome di una persona, ad esempio "Alfonso", oppure il nome di un giocattolo, come "Topolino".
+ In questo modo, sappiamo che nella scatola etichettata come "Nome" troveremo un nome.
+ Dentro le scatole possiamo mettere diversi tipi di oggetti:
+-Nomi
+-Numeri
+-Scatole vuote (intenzionalmente o perché ancora non abbiamo messo nulla dentro)
+-------------------------------------
+-----Tipi di dati in JavaScript:-----
+
+1. Stringhe (String) – Sono parole o sequenze di caratteri racchiuse tra virgolette.
+Esempio:
+----
+let nome = "Eduardo";  
+let giocattolo = "Robot2";  
+----
+Qui abbiamo due scatole:
+La scatola "nome" contiene "Eduardo"
+La scatola "giocattolo" contiene "Robot2"
+-------------------------------------
+2.Numeri (Number) – Sono valori numerici, interi o decimali.
+Esempio:
+----
+let eta = 23;  
+let voto = 8.5;
+----
+Qui:
+La scatola "eta" contiene il numero 23
+La scatola "voto" contiene il numero 8.5
+------------------------------------
+3.Valore non definito (undefined) – Quando creiamo una scatola ma non ci mettiamo nulla dentro.
+Esempio:
+----
+let cognome;  
+console.log(cognome); // undefined
+----
+Qui la scatola "cognome" esiste, ma è vuota.
+-------------------------------------
+4.Boolean (Vero o Falso) – Possiamo chiedere se un certo valore è dentro una scatola.
+Esempio:
+----
+let nome = "Monica";  
+console.log(nome === "Eduardo"); // false  
+console.log(nome === "Monica");  // true  
+----
+Se chiediamo "Monica è dentro la scatola 'nome'?", la risposta sarà true (vero).
+Se chiediamo "Eduardo è dentro la scatola 'nome'?", la risposta sarà false (falso).
+--------------------------------------
+5.Scatola svuotata di proposito (null) – È come quando finiamo tutti i dolci in una scatola e vogliamo indicare che ora è vuota.
+Esempio:
+----
+let caramelle = null;  
+console.log(caramelle); // null
+----
+Qui la scatola "caramelle" esiste, ma l’abbiamo svuotata apposta.
 
 */
 
@@ -90,12 +129,13 @@ console.log(risultato);
 /* SCRIVI QUI LA TUA RISPOSTA */
 const name1 = "john";
 const name2 = "John";
-console.log(!(name1 === name2));
 
-let diversi = name1 !== name2;
+console.log(!(name1 === name2)); // trasformazione in true.
+
+let diversi = name1 !== name2; // true
 console.log(diversi);
 
-console.log(name1 === name2);
+console.log(name1 === name2); // comparazione diretta true
 
-let uguali = name1.toLowerCase() === name2.toLowerCase();
+let uguali = name1.toLowerCase() === name2.toLowerCase(); // trasformate in lowercase per risultato true
 console.log(uguali);
