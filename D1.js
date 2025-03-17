@@ -40,6 +40,7 @@ per che rimane nulla .
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
 /* let myName = "Nicolae"; */
 /* console.log(myName);*/
 
@@ -68,8 +69,10 @@ let x = 12;
 /* SCRIVI QUI LA TUA RISPOSTA */
 let myName = "Loboda";
 console.log(myName);
+
 /* D1.js:68 Uncaught SyntaxError: Identifier 'myName' has already been declared (at D1.js:68:5)
  */
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -88,6 +91,11 @@ console.log(risultato);
 const name1 = "john";
 const name2 = "John";
 console.log(!(name1 === name2));
+
 let diversi = name1 !== name2;
 console.log(diversi);
+
 console.log(name1 === name2);
+
+let uguali = name1.toLowerCase() === name2.toLowerCase();
+console.log(uguali);
