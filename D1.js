@@ -13,7 +13,7 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* "Dobbiamo immaginare i Datatype in JavaCript sono come delle scatoline di carta dove poi mettre vari giovattoli e su ogni scattola gli atachiamo un eticheta con il nome, il nome dira che cosa sta dentro questa scatolina"
+/* "Dobbiamo immaginare i Datatype in JavaCript come delle scatoline di carta dove poi mettre vari giovattoli e su ogni scattola gli atachiamo un eticheta con il nome, il nome dira che cosa sta dentro questa scatolina"
 "ESEMPIO: in una scatola che la chimiamo 'Nome' mettiamo dentro il tuo nome 'Alfonso' opure il nome del giocattolo, e cosi sapiamo che nella scatola etichetata con il nome troveremo un il nome Alfonso o Valerio, Topolino e cosi via"
 "Dentro le scatole possiamo mettere piu tipi di ogetti non solo giocatoli o nomi ma anche numeri o puo essere anche vuota di proposito opure intenzionalmente la svuotiamo "
 "ESEMPIO:
